@@ -60,4 +60,14 @@ public class Word {
     public int getAudioSource() {
         return mAudioSource;
     }
+
+    @Override
+    public String toString() {
+        return "Word{" +
+                "mMiwokTranslation='" + mMiwokTranslation + '\'' +
+                ", mDefaultTranslation='" + mDefaultTranslation + '\'' +
+                ", mImageSource=" + mImageSource +
+                ", mAudioSource=" + mAudioSource +
+                '}';
+    }
 }
